@@ -7,14 +7,14 @@ using namespace std;
 
 class Solution {
 public:
-    vector<int> findEvenNumbers(vector<int>& digits) {
+    int fn(vector<int>& digits) {
         
     }
 };
 
 int main() {
-    vector<int> data2 = { 1, 2, 3};
+    vector<int> data1 = { 1, 2, 3};
 
     Solution s;
-    cout << s.uniqueMorseRepresentations(data1) << endl;
+    cout << s.fn(data1) << endl;
 }
