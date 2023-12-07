@@ -23,4 +23,6 @@ RUN git clone https://github.com/dreamsofcode-io/neovim-python.git ~/.config/nvi
 
 # M.ui = { theme = 'one_light' }
 
+RUN apt-get install -y --no-install-recommends \
+     libc-dev=2.38*
 
