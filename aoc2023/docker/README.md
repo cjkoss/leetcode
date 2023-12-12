@@ -1,7 +1,7 @@
 from current dir
 
 ```
-docker build -t aoc:local .
+docker build -t aoc:local -f Dockerfile_<lang> .
 ```
 
 run
